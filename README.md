@@ -12,6 +12,7 @@
 * Inception-V2: Batch Normalization: Accelerating Deep Network Training by
 Reducing Internal Covariate Shift
 * Inception-V3: Rethinking the Inception Architecture for Computer Vision
+* Inception-V4: [Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning](chrome-extension://gfbliohnnapiefjpjlpjnehglfpaknnc/pages/pdf_viewer.html?r=https://arxiv.org/pdf/1602.07261.pdf), 即 inception-resnet
 
 
 
