@@ -53,5 +53,8 @@ MobileNet
 ### [RankIQA: Learning from Rankings for No-reference Image Quality Assessment](https://github.com/xialeiliu/RankIQA)
 RankIQA: 分类网络+回归网络，将清晰图像降级生成不同等级的模糊图像，将之作为训练集先训练一个图像质量分级的网络，然后使用开源的图像质量数据集训练一个回归网络输出图像质量评分;
 
+### [Som: Semantic obviousness metric for image quality assessment](https://ieeexplore.ieee.org/document/7298853)
+RankIQA 比较的论文，对图像进行语意分割，然后对分割的物体进行质量检测，符合人眼的质量评判，而且该方法可以与任何方法结合使用;
+
 ### [Learning a Similarity Metric Discriminatively, with Application to Face Verification]()
 Siamese网络：孪生网络，有两个完全一样的分支，用于邮编识别、人脸识别等需要对比识别的领域，早RankIQA中使用该模型训练将图像质量分级的网络;
