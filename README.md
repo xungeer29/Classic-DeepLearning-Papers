@@ -42,9 +42,15 @@ Reducing Internal Covariate Shift
 * [Large-Margin Softmax Loss for Convolutional Neural Networks](http://proceedings.mlr.press/v48/liud16.pdf)
 * [github](https://github.com/wy1iu/LargeMargin_Softmax_Loss) caffe
 
+## Object Detection
+[SSD: Single Shot MultiBox Detector](https://arxiv.org/abs/1512.02325):
+SSD，目标检测
+github [pytorch](https://github.com/amdegroot/ssd.pytorch) [caffe](https://github.com/weiliu89/caffe/tree/ssd)
+
 ## Semantic Segmentation
 ### FCNN
-[Fully Convolutional Networks for Semantic Segmentation](chrome-extension://gfbliohnnapiefjpjlpjnehglfpaknnc/pages/pdf_viewer.html?r=https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf)：用于语义分割的全卷积神经网络，开启使用卷积神经网络进行语义分割的先河;
+[Fully Convolutional Networks for Semantic Segmentation](chrome-extension://gfbliohnnapiefjpjlpjnehglfpaknnc/pages/pdf_viewer.html?r=https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf)：
+用于语义分割的全卷积神经网络，开启使用卷积神经网络进行语义分割的先河;
 
 ## OTHERS
 ### [A guide to convolution arithmetic for deep learning]()
