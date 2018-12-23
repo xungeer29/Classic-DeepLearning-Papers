@@ -43,14 +43,22 @@ Reducing Internal Covariate Shift
 * [github](https://github.com/wy1iu/LargeMargin_Softmax_Loss) caffe
 
 ## Object Detection
-[SSD: Single Shot MultiBox Detector](https://arxiv.org/abs/1512.02325):
-SSD，目标检测
-github [pytorch](https://github.com/amdegroot/ssd.pytorch) [caffe](https://github.com/weiliu89/caffe/tree/ssd)
+* Faster R-CNN
+* YOLO
+  * [YOLOv3: An Incremental Improvement](https://arxiv.org/abs/1804.02767): YOLO-V3, 检测速度极大提升
+* [SSD: Single Shot MultiBox Detector](https://arxiv.org/abs/1512.02325):
+  * SSD，目标检测
+  * github [pytorch](https://github.com/amdegroot/ssd.pytorch) [caffe](https://github.com/weiliu89/caffe/tree/ssd)
+* [FaceBoxes: A CPU Real-time Face Detector with High Accuracy](https://arxiv.org/abs/1708.05234) 
+  * 人脸检测的小网络，可以做到CPU实时，用到了SSD的思想
+  * [github](https://github.com/XiaXuehai/faceboxes)
+* [Finding Tiny Faces](https://arxiv.org/abs/1612.04402): 小目边检测最好的方法，但是速度极慢
+* [An Analysis of Scale Invariance in Object Detection – SNIP](https://arxiv.org/abs/1711.08189): 小目标检测相关
 
 ## Semantic Segmentation
-### FCNN
-[Fully Convolutional Networks for Semantic Segmentation](chrome-extension://gfbliohnnapiefjpjlpjnehglfpaknnc/pages/pdf_viewer.html?r=https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf)：
-用于语义分割的全卷积神经网络，开启使用卷积神经网络进行语义分割的先河;
+* FCNN
+  * [Fully Convolutional Networks for Semantic Segmentation](chrome-extension://gfbliohnnapiefjpjlpjnehglfpaknnc/pages/pdf_viewer.html?r=https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf)：
+    用于语义分割的全卷积神经网络，开启使用卷积神经网络进行语义分割的先河;
 
 ## OTHERS
 ### [A guide to convolution arithmetic for deep learning]()
