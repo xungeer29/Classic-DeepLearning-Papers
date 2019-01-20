@@ -2,27 +2,29 @@
 
 ## MODEL ARCHITECTURE
 ### Alexnet
-[ImageNet Classification with Deep Convolutional Neural Networks.pdf]()
+[ImageNet Classification with Deep Convolutional Neural Networks.pdf](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks)
+
 深度学习兴起的引子
 
 ### VGG
+[Very Deep Convolutional Networks for Large-Scale Image Recognition](https://arxiv.org/abs/1409.1556)
+
+使用 3*3 卷积减少参数量的深层网络
 
 ### GoogleNet
-* Inception-V1: Going Deeper with Convolutions
-* Inception-V2: Batch Normalization: Accelerating Deep Network Training by
-Reducing Internal Covariate Shift
-* Inception-V3: Rethinking the Inception Architecture for Computer Vision
-* Inception-V4: [Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning](chrome-extension://gfbliohnnapiefjpjlpjnehglfpaknnc/pages/pdf_viewer.html?r=https://arxiv.org/pdf/1602.07261.pdf), 即 inception-resnet
-
-
+* Inception-V1: [Going Deeper with Convolutions](https://arxiv.org/abs/1409.4842)
+* Inception-V2: [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/abs/1502.03167)
+* Inception-V3: [Rethinking the Inception Architecture for Computer Vision](https://arxiv.org/abs/1512.00567)
+* Inception-V4: [Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning](https://arxiv.org/abs/1602.07261), 即 inception-resnet
 
 ### Densenet
+[Densely Connected Convolutional Networks](https://arxiv.org/abs/1608.06993)
 
 
-### Res-Net
-[Deep Residual Learning for Image Recognition](chrome-extension://gfbliohnnapiefjpjlpjnehglfpaknnc/pages/pdf_viewer.html?r=https://arxiv.org/pdf/1512.03385.pdf)
+### ResNet
+* [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
+  论文[翻译](http://noahsnail.com/2017/07/31/2017-7-31-ResNet%E8%AE%BA%E6%96%87%E7%BF%BB%E8%AF%91%E2%80%94%E2%80%94%E4%B8%AD%E6%96%87%E7%89%88/)
 
-论文[翻译](http://noahsnail.com/2017/07/31/2017-7-31-ResNet%E8%AE%BA%E6%96%87%E7%BF%BB%E8%AF%91%E2%80%94%E2%80%94%E4%B8%AD%E6%96%87%E7%89%88/)
 
 ### [MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications]()
 * MobileNet: 可以牺牲少量性能来大幅降低网络的计算量
@@ -61,13 +63,14 @@ Reducing Internal Covariate Shift
     用于语义分割的全卷积神经网络，开启使用卷积神经网络进行语义分割的先河;
 
 ## OTHERS
-### [A guide to convolution arithmetic for deep learning]()
+### [A guide to convolution arithmetic for deep learning](https://arxiv.org/abs/1603.07285)
 上采样的优点
 
-### [Escaping From Saddle Points –Online Stochastic Gradient for Tensor Decomposition]()
+### [Escaping From Saddle Points –Online Stochastic Gradient for Tensor Decomposition](https://arxiv.org/abs/1503.02101)
 batch的优点
 
-
+### [Data Distillation: Towards Omni-Supervised Learning](https://arxiv.org/abs/1712.04440)
+  数据蒸馏，一种使用无标签数据训练的全方位学习方法，在Kaggle等大数据竞赛中非常有用
 
 
 ## IQA
