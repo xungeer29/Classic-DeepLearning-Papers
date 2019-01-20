@@ -11,25 +11,35 @@
 
 使用 3*3 卷积减少参数量的深层网络
 
-### GoogleNet
+### GoogleNet，Inception系列
 * Inception-V1: [Going Deeper with Convolutions](https://arxiv.org/abs/1409.4842)
 * Inception-V2: [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/abs/1502.03167)
 * Inception-V3: [Rethinking the Inception Architecture for Computer Vision](https://arxiv.org/abs/1512.00567)
 * Inception-V4: [Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning](https://arxiv.org/abs/1602.07261), 即 inception-resnet
+* Xception: [Xception: Deep Learning with Depthwise Separable Convolutions](https://arxiv.org/abs/1610.02357)
 
 ### Densenet
 [Densely Connected Convolutional Networks](https://arxiv.org/abs/1608.06993)
 
 
-### ResNet
-* [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
-  论文[翻译](http://noahsnail.com/2017/07/31/2017-7-31-ResNet%E8%AE%BA%E6%96%87%E7%BF%BB%E8%AF%91%E2%80%94%E2%80%94%E4%B8%AD%E6%96%87%E7%89%88/)
+### 參差系列
+何恺明个人主页[http://kaiminghe.com/](http://kaiminghe.com/)
+* ResNet: [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385) 2015
+  [论文翻译](http://noahsnail.com/2017/07/31/2017-7-31-ResNet%E8%AE%BA%E6%96%87%E7%BF%BB%E8%AF%91%E2%80%94%E2%80%94%E4%B8%AD%E6%96%87%E7%89%88/)
+* ResNeXt: [Aggregated Residual Transformations for Deep Neural Networks](https://arxiv.org/abs/1611.05431) 2017
+  [pytorch](https://github.com/miraclewkf/ResNeXt-PyTorch)
+* SE-ResNet & SE-ResNeXt: [Squeeze-And-Excitation Networks](https://arxiv.org/abs/1709.01507) 2018
 
 
-### [MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications]()
-* MobileNet: 可以牺牲少量性能来大幅降低网络的计算量
-* 将标准卷积转化为深度可分离卷积(depthwise conv + pointwise conv)，depthwise conv只在单一通道上进行卷积，提取特征，pointwise conv 为1*1*N的卷积，将不同通道的特征连接起来，产生新的特征; 定义了两个超参 \alpha 和 \rho 用于进一步缩减网络，分别是宽度乘数和分辨率乘数，用于减少通道数和输入图像的大小，范围为(0,1);
-* MobileNet 可以用于分类、检测、识别等各个领域，适用于移动端和嵌入式端
+
+### 轻量级网络
+* MobileNet-V1: [MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications](https://arxiv.org/abs/1704.04861)
+  * MobileNet: 可以牺牲少量性能来大幅降低网络的计算量
+  * 将标准卷积转化为深度可分离卷积(depthwise conv + pointwise conv)，depthwise conv只在单一通道上进行卷积，提取特征，pointwise conv 为1*1*N的卷积，将不同通道的特征连接起来，产生新的特征; 定义了两个超参 \alpha 和 \rho 用于进一步缩减网络，分别是宽度乘数和分辨率乘数，用于减少通道数和输入图像的大小，范围为(0,1);
+  * MobileNet 可以用于分类、检测、识别等各个领域，适用于移动端和嵌入式端
+* MobileNet-V2: [MobileNetV2: Inverted Residuals and Linear Bottlenecks](https://arxiv.org/abs/1801.04381)
+* ShuffleNet-V1: [ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices](https://arxiv.org/abs/1707.01083)
+* ShuffleNet-V2: [ShuffleNet V2: Practical Guidelines for Efficient CNN Architecture Design](https://arxiv.org/abs/1807.11164)
 
 ## LOSS FUNCTION
 ### AM-Softmax
