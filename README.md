@@ -25,8 +25,10 @@
 ### 參差系列
 何恺明个人主页[http://kaiminghe.com/](http://kaiminghe.com/)
 * ResNet: [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385) 2015
+
   [论文翻译](http://noahsnail.com/2017/07/31/2017-7-31-ResNet%E8%AE%BA%E6%96%87%E7%BF%BB%E8%AF%91%E2%80%94%E2%80%94%E4%B8%AD%E6%96%87%E7%89%88/)
 * ResNeXt: [Aggregated Residual Transformations for Deep Neural Networks](https://arxiv.org/abs/1611.05431) 2017
+
   [pytorch](https://github.com/miraclewkf/ResNeXt-PyTorch)
 * SE-ResNet & SE-ResNeXt: [Squeeze-And-Excitation Networks](https://arxiv.org/abs/1709.01507) 2018
 
