@@ -57,7 +57,16 @@
 * [github](https://github.com/wy1iu/LargeMargin_Softmax_Loss) caffe
 
 ## Object Detection
+* RCNN
+  [Rich feature hierarchies for accurate object detection and semantic segmentation](https://arxiv.org/abs/1311.2524)
+* Fast-RCNN
+  [Fast R-CNN](https://arxiv.org/abs/1504.08083)
 * Faster R-CNN
+  [Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks](https://arxiv.org/abs/1506.01497)
+* RetinaNet-Focal Loss
+  [Focal Loss for Dense Object Detection](https://arxiv.org/abs/1708.02002)
+* Mask-RCNN
+  [Mask R-CNN](https://arxiv.org/abs/1703.06870)
 * YOLO
   * [YOLOv3: An Incremental Improvement](https://arxiv.org/abs/1804.02767): YOLO-V3, 检测速度极大提升
 * [SSD: Single Shot MultiBox Detector](https://arxiv.org/abs/1512.02325):
@@ -68,6 +77,7 @@
   * [github](https://github.com/XiaXuehai/faceboxes)
 * [Finding Tiny Faces](https://arxiv.org/abs/1612.04402): 小目边检测最好的方法，但是速度极慢
 * [An Analysis of Scale Invariance in Object Detection – SNIP](https://arxiv.org/abs/1711.08189): 小目标检测相关
+* [Generalized Intersection over Union: A Metric and A Loss for Bounding BoxRegression](https://arxiv.org/abs/1902.09630): 提出一种新的IOU计算方法
 
 ## Semantic Segmentation
 * FCNN
