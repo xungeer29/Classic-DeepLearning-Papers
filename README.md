@@ -44,17 +44,21 @@
 * ShuffleNet-V2: [ShuffleNet V2: Practical Guidelines for Efficient CNN Architecture Design](https://arxiv.org/abs/1807.11164)
 
 ## LOSS FUNCTION
-### AM-Softmax
-* [Additive Margin Softmax for Face Verification](https://arxiv.org/abs/1801.05599)
-* [github](https://github.com/happynear/AMSoftmax) caffe tensorflow
+* AM-Softmax
+  * [Additive Margin Softmax for Face Verification](https://arxiv.org/abs/1801.05599)
+  * [github](https://github.com/happynear/AMSoftmax) caffe tensorflow
 
-### A-Softmax
-* [SphereFace: Deep Hypersphere Embedding for Face Recognition](https://arxiv.org/abs/1704.08063)
-* [github](https://github.com/wy1iu/sphereface) caffe
+* A-Softmax
+  * [SphereFace: Deep Hypersphere Embedding for Face Recognition](https://arxiv.org/abs/1704.08063)
+  * [github](https://github.com/wy1iu/sphereface) caffe
 
-### L-Softmax
-* [Large-Margin Softmax Loss for Convolutional Neural Networks](http://proceedings.mlr.press/v48/liud16.pdf)
-* [github](https://github.com/wy1iu/LargeMargin_Softmax_Loss) caffe
+* L-Softmax
+  * [Large-Margin Softmax Loss for Convolutional Neural Networks](http://proceedings.mlr.press/v48/liud16.pdf)
+  * [github](https://github.com/wy1iu/LargeMargin_Softmax_Loss) caffe
+
+* Triplet loss
+  * [In Defense of the Triplet Loss for Person Re-Identification](https://arxiv.org/abs/1703.07737)
+  * [github](https://github.com/Cysu/open-reid/blob/master/reid/loss/triplet.py)
 
 ## Object Detection
 * RCNN
