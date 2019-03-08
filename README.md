@@ -60,6 +60,10 @@
   * [In Defense of the Triplet Loss for Person Re-Identification](https://arxiv.org/abs/1703.07737)
   * [github](https://github.com/Cysu/open-reid/blob/master/reid/loss/triplet.py)
 
+* Lovász-Softmax loss
+  * [The Lovász-Softmax loss: A tractable surrogate for the optimization of the intersection-over-union measure in neural networks](https://arxiv.org/abs/1705.08790)
+  * [github](https://github.com/bermanmaxim/LovaszSoftmax)
+
 ## Object Detection
 * RCNN
   [Rich feature hierarchies for accurate object detection and semantic segmentation](https://arxiv.org/abs/1311.2524)
