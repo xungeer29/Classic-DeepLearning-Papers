@@ -56,6 +56,10 @@
   * [Large-Margin Softmax Loss for Convolutional Neural Networks](http://proceedings.mlr.press/v48/liud16.pdf)
   * [github](https://github.com/wy1iu/LargeMargin_Softmax_Loss) caffe
 
+* ArcFace
+  * [ArcFace: Additive Angular Margin Loss for Deep Face Recognition](https://arxiv.org/abs/1801.07698)
+  * github [pytorch](https://github.com/ronghuaiyang/arcface-pytorch)
+
 * Triplet loss
   * [In Defense of the Triplet Loss for Person Re-Identification](https://arxiv.org/abs/1703.07737)
   * [github](https://github.com/Cysu/open-reid/blob/master/reid/loss/triplet.py)
