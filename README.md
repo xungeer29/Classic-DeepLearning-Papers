@@ -96,6 +96,11 @@
   * [Fully Convolutional Networks for Semantic Segmentation](chrome-extension://gfbliohnnapiefjpjlpjnehglfpaknnc/pages/pdf_viewer.html?r=https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf)：
     用于语义分割的全卷积神经网络，开启使用卷积神经网络进行语义分割的先河;
 
+## Face Recognition
+* 2019年最新人脸识别综述
+  [Deep Face Recognition: A Survey](https://arxiv.org/abs/1804.06655)  
+* 人脸识别的 one-shot learning 问题解决方案，earhian 推荐
+  [One-shot Face Recognition by Promoting Underrepresented Classes](https://arxiv.org/abs/1707.05574)
 ## OTHERS
 ### [A guide to convolution arithmetic for deep learning](https://arxiv.org/abs/1603.07285)
 上采样的优点
